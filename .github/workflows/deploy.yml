@@ -15,8 +15,8 @@ jobs:
       - name: Install and Build
         run: |
           npm install
-          nodejs ./node_modules/typescript/bin/tsc --project tsconfig.json
-          nodejs build.js
+          node ./node_modules/typescript/bin/tsc --project tsconfig.json
+          node build.js
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.1
