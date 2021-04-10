@@ -39,7 +39,7 @@ All the content of the src directory needs to be exposed with a web-server.
 ## Change configuration
 You will have to edit the file src/config.ts in order to change the API endpoint. 
 
-That's all
+Done
 
 ### Donate
 
