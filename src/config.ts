@@ -2,9 +2,9 @@ let global: any = typeof window !== 'undefined' ? window : self;
 global.config = {
 	nodeList: [
 		{ owner: "Lomelicus", node: "https://pr01.myqwertycoin.com/sync/"},
-		{ owner: "ExploShot", node: "https://pr02.myqwertycoin.com/sync/"}
+		{ owner: "ExploShot", node: "https://pr01.myqwertycoin.com/sync/"}
 	],
-	nodeUrl: "https://pr02.myqwertycoin.com/sync/",
+	nodeUrl: "https://pr01.myqwertycoin.com/sync/",
 	electionApiUrl: "https://voting.qwertycoin.org/api",
 	mainnetExplorerUrl: "https://explorer.qwertycoin.org/",
 	mainnetExplorerUrlHash: "https://explorer.qwertycoin.org/?hash={ID}#blockchain_transaction",
