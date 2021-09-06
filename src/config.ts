@@ -3,7 +3,7 @@ global.config = {
 	nodeList: [
 		{ owner: "Official #1", node: "https://pr01.myqwertycoin.com/sync/"},
 		{ owner: "Official #2", node: "https://api.qwertycoin.org/sslnode/"},
-		{ owner: "Official #3", node: "https://pr01.myqwertycoin.com/sync/"}
+		{ owner: "Official #3", node: "https://pr02.myqwertycoin.com/sync/"}
 	],
 	nodeUrl: "https://pr01.myqwertycoin.com/sync/",
 	electionApiUrl: "https://voting.qwertycoin.org/api",
