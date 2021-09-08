@@ -22,7 +22,7 @@ class SettingsView extends DestructableView{
 	@VueVar(false) checkMinerTx !: boolean;
 
 	@VueVar(false) customNode !: boolean;
-	@VueVar('https://pr02.myqwertycoin.com/sync/') nodeUrl !: string;
+	@VueVar('https://node-02.qwertycoin.org/sslnode/') nodeUrl !: string;
 	@VueVar([]) nodeList !: any;
 
 	@VueVar(0) creationHeight !: number;
