@@ -1,16 +1,9 @@
 let global: any = typeof window !== 'undefined' ? window : self;
 global.config = {
 	nodeList: [
-		{ owner: "node-00", node: "https://node-00.qwertycoin.org/sslnode"},
-		{ owner: "node-01", node: "https://node-01.qwertycoin.org/sslnode"},
-		{ owner: "node-02", node: "https://node-02.qwertycoin.org/sslnode"},
-		{ owner: "node-03", node: "https://node-03.qwertycoin.org/sslnode"},
-		{ owner: "node-04", node: "https://node-04.qwertycoin.org/sslnode"},
-		{ owner: "node-05", node: "https://node-05.qwertycoin.org/sslnode"},
-		{ owner: "node-06", node: "https://node-06.qwertycoin.org/sslnode"},
-		{ owner: "node-07", node: "https://node-07.qwertycoin.org/sslnode"}
+		{ owner: "node-03", node: "https://node-03.qwertycoin.org/sslnode/"}
 	],
-	nodeUrl: "https://node-00.qwertycoin.org/sslnode",
+	nodeUrl: "https://node-03.qwertycoin.org/sslnode/",
 	electionApiUrl: "https://voting.qwertycoin.org/api",
 	mainnetExplorerUrl: "https://explorer.qwertycoin.org/",
 	mainnetExplorerUrlHash: "https://explorer.qwertycoin.org/?hash={ID}#blockchain_transaction",
