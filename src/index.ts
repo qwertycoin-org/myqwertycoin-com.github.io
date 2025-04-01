@@ -220,7 +220,7 @@ Y88b  d88P Y88b.  Y88..88P 888 d88P         scam and will give them access to yo
                            888              
                            888              
 
-See https://myqwertycoin.com/index.html#!selfxss for more information.`, "font-family:monospace")
+See https://my.qwertycoin.org/index.html#!selfxss for more information.`, "font-family:monospace")
 
 if (!isCordovaApp && 'serviceWorker' in navigator) {
 	const showRefreshUI = function(registration : any){
